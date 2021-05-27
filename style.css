@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lexend;
+}
+header{
+    width: 100%;
+    height: 600px;
+    background-image: url(Photos/tulips.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+nav{
+    width: 80%;
+    height: 49px;
+    border-radius: 7px;
+    background-image: linear-gradient(#fefefe, #e2e4e0);
+    margin: 0 auto;
+    border-top: 5px solid #6B8E23;
+}
+ul {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 7px;  
+}
+li{
+    width: 120px;
+    height: 49px;
+    display: inline-block;
+    position: relative;
+    top: -5px;
+    border-radius: 7px;
+}
+.antras{
+    background-image: linear-gradient(#6B8E23, #B22222)
+}
+a{
+    display: block;
+    width: 120px;
+    height: 49px;
+    text-decoration-line: none;
+    color: #696969;
+    padding-top: 15px;
+    transition: 0.3s;
+    border-radius: 7px;
+}
+.antras a{
+    color: #F5F5F5;
+}
+.antras a:hover{
+    background-image: linear-gradient(#B22222, #6B8E23);
+}
+a:hover{
+    background-image: linear-gradient(#6B8E23, #B22222);
+    color: #FFF;
+}
+h1{
+    width: 300px;
+    height: 70px;
+    border: 2px solid #6B8E23;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    color: #FFF;
+    padding-top: 2px;
+    border-radius: 7px;
+    background-image: linear-gradient(#6B8E23, #B22222);
+    mix-blend-mode: screen;
+    text-shadow: 2px 2px #6B8E23;
+    font-size: 50px;
+}
+.foto{
+    width: 100%;
+    height: 500px;
+    background-image: radial-gradient(#6B8E23, #FF6347, #9ACD32, #A52A2A);
+    position: relative;
+    padding: 20px;
+}
+.foto div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid lightgreen;
+    border-radius: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    color: #fff;
+}
+.foto1{
+    background-image: url(Photos/photo1.jpg);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.foto2{
+    background-image: url(Photos/photo2.jpg);
+    position: absolute;
+    top: 0;
+    left: 20%;
+}
+.foto3{
+    background-image: url(Photos/photo3.jpg);
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.foto4{
+    background-image: url(Photos/photo4.jpg);
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+.foto5{
+    background-image: url(Photos/photo5.jpg);
+    position: absolute;
+    top: 0;
+    left: 80%;
+}
+.foto6{
+    background-image: url(Photos/photo6.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.foto7{
+    background-image: url(Photos/photo7.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+}
+.foto8{
+    background-image: url(Photos/photo8.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+}
+.foto9{
+    background-image: url(Photos/photo9.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 60%;
+}
+.foto10{
+    background-image: url(Photos/photo10.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 80%;
+}
+.foto div:hover{
+    mix-blend-mode: screen;
+}
+.text{
+    width: 100%;
+    height: 500px;
+    background-image: radial-gradient(#6B8E23, #FF6347, #9ACD32, #A52A2A);
+    text-align: center;
+    padding: 20px;
+}
+p{
+    width: 200px;
+    height: 450px;;
+    font-size: 20px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    box-shadow: 0 0 5px #fff;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-image: url(Photos/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h6{
+    width: 100%;
+    height: 200px;
+    padding: 100px;
+    font-size: 50px;
+    background-image: radial-gradient(#6B8E23, #FF6347, #9ACD32, #A52A2A);
+    mix-blend-mode: screen;
+}
