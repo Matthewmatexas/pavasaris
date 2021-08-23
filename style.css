@@ -4,6 +4,9 @@
     box-sizing: border-box;
     font-family: Lexend;
 }
+body{
+    width: 100%;
+}
 header{
     width: 100%;
     height: 600px;
@@ -80,9 +83,9 @@ h1{
     position: relative;
     padding: 20px;
 }
-.foto div{
-    width: 200px;
-    height: 200px;
+.photos1 div{
+    width: 150px;
+    height: 150px;
     border: 2px solid lightgreen;
     border-radius: 100%;
     text-align: center;
@@ -91,79 +94,77 @@ h1{
     margin: 30px;
     color: #fff;
 }
+.photos2 div{
+    width: 150px;
+    height: 150px;
+    border: 2px solid lightgreen;
+    border-radius: 100%;
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    margin: 30px;
+    color: #fff;
+}
+.photos1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+.photos2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
 .foto1{
     background-image: url(Photos/photo1.jpg);
-    position: absolute;
-    top: 0;
-    left: 0;
 }
 .foto2{
     background-image: url(Photos/photo2.jpg);
-    position: absolute;
-    top: 0;
-    left: 20%;
 }
 .foto3{
     background-image: url(Photos/photo3.jpg);
-    position: absolute;
-    top: 0;
-    left: 40%;
 }
 .foto4{
     background-image: url(Photos/photo4.jpg);
-    position: absolute;
-    top: 0;
-    left: 60%;
 }
 .foto5{
     background-image: url(Photos/photo5.jpg);
-    position: absolute;
-    top: 0;
-    left: 80%;
 }
 .foto6{
     background-image: url(Photos/photo6.jpg);
-    position: absolute;
-    bottom: 0;
-    left: 0;
 }
 .foto7{
     background-image: url(Photos/photo7.jpg);
-    position: absolute;
-    bottom: 0;
-    left: 20%;
 }
 .foto8{
     background-image: url(Photos/photo8.jpg);
-    position: absolute;
-    bottom: 0;
-    left: 40%;
 }
 .foto9{
     background-image: url(Photos/photo9.jpg);
-    position: absolute;
-    bottom: 0;
-    left: 60%;
 }
 .foto10{
     background-image: url(Photos/photo10.jpg);
-    position: absolute;
-    bottom: 0;
-    left: 80%;
 }
-.foto div:hover{
+.photos1 div:hover{
+    mix-blend-mode: screen;
+}
+.photos2 div:hover{
     mix-blend-mode: screen;
 }
 .text{
     width: 100%;
-    height: 500px;
+    height: auto;
     background-image: radial-gradient(#6B8E23, #FF6347, #9ACD32, #A52A2A);
     text-align: center;
     padding: 20px;
 }
 p{
-    width: 200px;
-    height: 450px;;
+    width: 11%;
+    height: auto;
     font-size: 20px;
     color: #fff;
     display: inline-block;
